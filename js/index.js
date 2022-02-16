@@ -46,7 +46,7 @@ window.addEventListener('DOMContentLoaded', () => {
       }, 1000);
     }
   
-      var fiveMinutes = 60 * 5/20;
+      var fiveMinutes = 60 * 5;
       display = document.querySelector('#time');
       startTimer(fiveMinutes, display);
     
