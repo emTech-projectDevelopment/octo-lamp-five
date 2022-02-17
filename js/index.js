@@ -46,9 +46,9 @@ window.addEventListener('DOMContentLoaded', () => {
       }, 1000);
     }
   
-      var fiveMinutes = 60 * 5/20;
+      var twoMinutes = 60 * 2;
       display = document.querySelector('#time');
-      startTimer(fiveMinutes, display);
+      startTimer(twoMinutes, display);
     
   });
 
